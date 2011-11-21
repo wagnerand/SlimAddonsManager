@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="rdf:#$SEy0R3"
+                   em:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+                   em:minVersion="8.0"
+                   em:maxVersion="8.*"
+                   em:updateLink="http://dragontalk.opendfki.de/repos/SlimAddonsManager/trunk/dist/slimaddonsmanager.xpi"
+                   em:updateHash="sha256:3f47212a5f70c2cfafc1df650ef5e3c83ce18c1e891f6d4b552e01d100d542fe" />
+  <RDF:Description RDF:about="rdf:#$BEy0R3"
+                   em:version="8">
+    <em:targetApplication RDF:resource="rdf:#$EEy0R3"/>
+    <em:targetApplication RDF:resource="rdf:#$LEy0R3"/>
+    <em:targetApplication RDF:resource="rdf:#$SEy0R3"/>
+  </RDF:Description>
+  <RDF:Seq RDF:about="rdf:#$AEy0R3">
+    <RDF:li RDF:resource="rdf:#$BEy0R3"/>
+  </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$EEy0R3"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="8.0"
+                   em:maxVersion="8.*"
+                   em:updateLink="http://dragontalk.opendfki.de/repos/SlimAddonsManager/trunk/dist/slimaddonsmanager.xpi"
+                   em:updateHash="sha256:3f47212a5f70c2cfafc1df650ef5e3c83ce18c1e891f6d4b552e01d100d542fe" />
+  <RDF:Description RDF:about="rdf:#$LEy0R3"
+                   em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+                   em:minVersion="2.5"
+                   em:maxVersion="2.5.*"
+                   em:updateLink="http://dragontalk.opendfki.de/repos/SlimAddonsManager/trunk/dist/slimaddonsmanager.xpi"
+                   em:updateHash="sha256:3f47212a5f70c2cfafc1df650ef5e3c83ce18c1e891f6d4b552e01d100d542fe" />
+  <RDF:Description RDF:about="urn:mozilla:extension:slimaddonmanager@opendfki.de"
+                   em:signature="MIGTMA0GCSqGSIb3DQEBDQUAA4GBAKgwWfexCz6XVY0H8OWDXoit3xVAjyv2HSwsG2Qjhln9DiQcV4v3Ve1IFANMp1sDmeMoDGCR6xxLmyJiB+o3dl36xJpw/9C3g/Lrua2+u10keWOvLiwPafa7p6gxorWR41Rmnt7YfmTltHg5LTHW6UiAw162y2OHh3ELAL/lGfD1">
+    <em:updates RDF:resource="rdf:#$AEy0R3"/>
+  </RDF:Description>
+</RDF:RDF>

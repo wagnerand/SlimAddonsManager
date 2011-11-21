@@ -1,0 +1,30 @@
+@-moz-document url(chrome://mozapps/content/extensions/extensions.xul),
+    url(about:addons) {
+    
+    .icon-container {
+        width: 16px !important;
+        height: 16px !important;
+        margin: 3px 7px;
+        -moz-box-align: center;
+        -moz-box-pack: center;
+    }
+    
+    .icon {
+        list-style-image: url("chrome://mozapps/skin/extensions/extensionGeneric-16.png");
+        max-width: 16px !important;
+        max-height: 16px !important;
+    }
+    
+    .content-inner-container {
+        -moz-box-orient: horizontal;
+    }
+    
+    .description-container {
+        margin-top: 0 !important;
+    }
+    
+    .advancedinfo-container {
+        -moz-box-align: center !important;
+    }
+
+}

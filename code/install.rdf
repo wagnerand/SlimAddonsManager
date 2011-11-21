@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+        xmlns:NC="http://home.netscape.com/NC-rdf#"
+        xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <RDF:Description RDF:about="urn:mozilla:install-manifest"
+            em:id="slimaddonmanager@opendfki.de"
+            em:type="2"
+            em:version="8"
+            em:bootstrap="true"
+            em:name="Slim Add-ons Manager"
+            em:description="The Add-ons Manager slims down!"
+            em:creator="Andreas Wagner"
+            em:updateURL="http://dragontalk.opendfki.de/repos/SlimAddonsManager/trunk/dist/update.rdf"
+            em:updateKey="MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDtmEQ9w6mk4SjzVXeuOZfJD0MxDngVUh2bWIcqIMIUufE5w/de21T60wVOJJ1htc0ynWXPANdmBPovE0U2Q6UwdGfqIEy72CWRYzF1oN3vwtktOetRGXRkRTzbghmvuRtBrjAMxkbISZ1/yHqgQ5J3rjgyT1xTPSpXT2DeJSj9/wIDAQAB">
+        <em:targetApplication RDF:resource="rdf:#$UwteT2"/>
+        <em:targetApplication RDF:resource="rdf:#$UwteT3"/>
+        <em:targetApplication RDF:resource="rdf:#$UwteT4"/>
+        <em:localized RDF:resource="rdf:#$c0HYx"/>
+    </RDF:Description>
+    <RDF:Description RDF:about="rdf:#$UwteT2"
+            em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+            em:minVersion="8.0"
+            em:maxVersion="8.*" />
+    <RDF:Description RDF:about="rdf:#$UwteT3"
+            em:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
+            em:minVersion="8.0"
+            em:maxVersion="8.*" />
+    <RDF:Description RDF:about="rdf:#$UwteT4"
+            em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
+            em:minVersion="2.5"
+            em:maxVersion="2.5.*" />
+    <Description RDF:about="rdf:#$c0HYx"
+            em:locale="de-DE"
+            em:name="Slim Add-ons Manager"
+            em:description="Der Add-ons Manager speckt ab!"
+            em:creator="Andreas Wagner" />
+</RDF:RDF>
