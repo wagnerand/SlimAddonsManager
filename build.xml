@@ -2,8 +2,7 @@
 
 <project name="SlimAddonsManager" default="build">
 
-	<property name="src.dir" value="code" />
-	<property name="dist.dir" value="dist" />
+	<property name="src.dir" value="src" />
 	<property name="ext.name.lower" value="slimaddonsmanager" />
 
 	<target name="getVersionFromRDF">
@@ -21,18 +20,15 @@
 	</target>
 
 	<target name="makeXPI" depends="getVersionFromRDF">
-		<fail message="Version ${installVersion} has already been built! You have to delete ${ext.name.lower}_${installVersion}.xpi manually if you want to rebuilt this version.">
-			<condition>
-			    <available file="${dist.dir}/${ext.name.lower}_${installVersion}.xpi" />
-			</condition>
-		</fail>
-		<zip destfile="${dist.dir}/${ext.name.lower}_${installVersion}.xpi">
+		<zip destfile="${ext.name.lower}_${installVersion}.xpi">
 			<fileset dir="${src.dir}">
 				<exclude name="**/.DS_Store" />
 				<include name="chrome/content/**" />
 				<include name="install.rdf" />
                 <include name="bootstrap.js" />
 				<include name="chrome.manifest" />
+				<include name="icon.png" />
+				<include name="icon64.png" />
 				<exclude name="**/.*" />
 			</fileset>
 		</zip>
