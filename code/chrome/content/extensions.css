@@ -10,7 +10,7 @@
         max-height: 32px !important;
     }
 
-    /* ESR 35 only */
+    /* ESR 35 and TB only */
     .content-container {
         -moz-box-align: center;
     }
@@ -19,7 +19,7 @@
         -moz-box-orient: horizontal;
     }
 
-    /* ESR 35 only */
+    /* ESR 35 and TB only */
     .basicinfo-container {
         -moz-box-align: end;
     }
