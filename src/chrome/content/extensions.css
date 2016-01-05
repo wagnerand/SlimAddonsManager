@@ -12,7 +12,7 @@
 
     /* ESR 35 and TB only */
     .content-container {
-        -moz-box-align: center;
+        -moz-box-align: center !important;
     }
 
     .content-inner-container {
@@ -21,7 +21,7 @@
 
     /* ESR 35 and TB only */
     .basicinfo-container {
-        -moz-box-align: end;
+        -moz-box-align: end !important;
     }
 
     .advancedinfo-container {
