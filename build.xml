@@ -23,7 +23,7 @@
 		<zip destfile="${ext.name.lower}_${installVersion}.xpi">
 			<fileset dir="${src.dir}">
 				<exclude name="**/.DS_Store" />
-				<include name="chrome/content/**" />
+				<include name="style/**" />
 				<include name="install.rdf" />
                 <include name="bootstrap.js" />
 				<include name="chrome.manifest" />
