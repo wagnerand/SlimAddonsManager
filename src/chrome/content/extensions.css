@@ -10,22 +10,34 @@
         max-height: 32px !important;
     }
 
-    /* ESR 35 and TB only */
     .content-container {
         -moz-box-align: center !important;
     }
 
     .content-inner-container {
         -moz-box-orient: horizontal;
+        -moz-box-pack: center !important;
     }
 
-    /* ESR 35 and TB only */
     .basicinfo-container {
-        -moz-box-align: end !important;
+        -moz-box-align: center !important;
     }
 
     .advancedinfo-container {
-        -moz-box-align: end;
+        -moz-box-align: center !important;
+    }
+
+    .description-outer-container {
+        -moz-box-pack: center !important;
+    }
+
+    .description-container {
+        margin-top: 0 !important;
+        -moz-box-align: center !important;
+    }
+
+    .relnotes-container {
+        margin-left: 12px !important;
     }
 
 }
