@@ -6,7 +6,7 @@
     <em:type>2</em:type>
     <em:bootstrap>true</em:bootstrap>
     <em:unpack>false</em:unpack>
-    <em:version>13</em:version>
+    <em:version>14</em:version>
     <em:name>Slim Add-ons Manager</em:name>
     <em:description>The Add-ons Manager slims down!</em:description>
     <em:creator>Andreas Wagner</em:creator>
