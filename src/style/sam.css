@@ -16,7 +16,7 @@
 
     .content-inner-container {
         -moz-box-orient: horizontal;
-        -moz-box-pack: center !important;
+        -moz-box-align: center !important;
     }
 
     .basicinfo-container {
