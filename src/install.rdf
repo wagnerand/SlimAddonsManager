@@ -1,35 +1,39 @@
-<?xml version="1.0"?>
-<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
-        xmlns:NC="http://home.netscape.com/NC-rdf#"
-        xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <RDF:Description RDF:about="urn:mozilla:install-manifest"
-            em:id="slimaddonmanager@opendfki.de"
-            em:type="2"
-            em:version="13"
-            em:bootstrap="true"
-            em:name="Slim Add-ons Manager"
-            em:description="The Add-ons Manager slims down!"
-            em:creator="Andreas Wagner">
-        <em:targetApplication RDF:resource="rdf:#$UwteT2"/>
-        <em:targetApplication RDF:resource="rdf:#$UwteT3"/>
-        <em:targetApplication RDF:resource="rdf:#$UwteT4"/>
-        <em:localized RDF:resource="rdf:#$c0HYx"/>
-    </RDF:Description>
-    <RDF:Description RDF:about="rdf:#$UwteT2"
-            em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-            em:minVersion="35.0"
-            em:maxVersion="45.*" />
-    <RDF:Description RDF:about="rdf:#$UwteT3"
-            em:id="{3550f703-e582-4d05-9a08-453d09bdfdc6}"
-            em:minVersion="38.0"
-            em:maxVersion="38.*" />
-    <RDF:Description RDF:about="rdf:#$UwteT4"
-            em:id="{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}"
-            em:minVersion="2.32"
-            em:maxVersion="2.41.*" />
-    <Description RDF:about="rdf:#$c0HYx"
-            em:locale="de-DE"
-            em:name="Slim Add-ons Manager"
-            em:description="Der Add-ons Manager speckt ab!"
-            em:creator="Andreas Wagner" />
-</RDF:RDF>
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>slimaddonmanager@opendfki.de</em:id>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>false</em:unpack>
+    <em:version>13</em:version>
+    <em:name>Slim Add-ons Manager</em:name>
+    <em:description>The Add-ons Manager slims down!</em:description>
+    <em:creator>Andreas Wagner</em:creator>
+    <em:multiprocessCompatible>true</em:multiprocessCompatible>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>35.0</em:minVersion>
+        <em:maxVersion>50.*</em:maxVersion>
+      </Description>
+      <Description>
+        <em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
+        <em:minVersion>38.0</em:minVersion>
+        <em:maxVersion>45.*</em:maxVersion>
+      </Description>
+      <Description>
+        <em:id>{92650c4d-4b8e-4d2a-b7eb-24ecf4f6b63a}</em:id>
+        <em:minVersion>2.32</em:minVersion>
+        <em:maxVersion>2.47.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+    <em:localized>
+      <Description>
+        <em:locale>de-DE</em:locale>
+        <em:name>Slim Add-ons Manager</em:name>
+        <em:description>Der Add-ons Manager speckt ab!</em:description>
+      </Description>
+    </em:localized>
+  </Description>
+</RDF>
